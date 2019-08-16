@@ -21,4 +21,12 @@ function imprimirMayusculas(persona) {
 imprimirMayusculas(sacha);
 imprimirMayusculas(dario);
 
-console.log('hola');
+function cumpleaños (persona)
+{
+    return {
+        ...persona,
+        edad: persona.edad +1
+    }
+}
+
+cumpleaños(dario);
